@@ -1,13 +1,9 @@
 async function getAdvice() {
-    try {
+    
       var response = await fetch("https://api.adviceslip.com/advice");
       var data = await response.json();
       return data;
-    } catch (error) {
-      throw new Error('Error fetching data:', error);
     }
-  }
-  
   function displayAdvice(id, advice) {
     var adviceId = document.getElementById('adviceId');
    adviceId.innerHTML = "";
@@ -21,8 +17,9 @@ async function getAdvice() {
   Btn.addEventListener('click', async () => {
     try {
       const a = await getAdvice();
+      console.log(a);
       displayAdvice(a.slip.id, a.slip.advice);
-    console.log(a);
+    
     } catch (error) {
       console.error('Error fetching data:', error);
       
