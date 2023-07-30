@@ -1,0 +1,19 @@
+{
+  "name": "advice-generator-app-main",
+  "version": "1.0.0",
+  "description": "advive generator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedBelk/advice-generator-app-main.git"
+  },
+  "author": "Belkadi Mohammed Youcef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedBelk/advice-generator-app-main/issues"
+  },
+  "homepage": "https://github.com/MedBelk/advice-generator-app-main#readme"
+}
