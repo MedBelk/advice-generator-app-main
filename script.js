@@ -26,3 +26,9 @@ async function getAdvice() {
     }
   });
   
+window.addEventListener("load",welcome=()=>{
+  document.getElementById("advice").innerHTML="Welcome to the advice generator app"
+})
+
+  
+  
