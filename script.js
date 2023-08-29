@@ -26,7 +26,7 @@ async function getAdvice() {
     }
   });
   
-window.addEventListener("load",welcome=()=>{
+window.addEventListener("load",()=>{
   document.getElementById("advice").innerHTML="Welcome to the advice generator app"
 })
 
